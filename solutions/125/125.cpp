@@ -16,7 +16,6 @@ bool isPalindromic(unsigned long num){
 
 int main(){
   unsigned long max = 100000000;
-  // max = 1000;
   std::vector<bool> nums(max+1, false);
   for(unsigned long i=1;i<max;i++){
     unsigned long sum = (i*i)+((i+1)*(i+1));
